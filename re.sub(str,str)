@@ -1,0 +1,7 @@
+import re
+import time
+
+data = ("Have a nice day dear friend happy learning:")
+st=re.sub(r"\b\w{4}\b", "####", data )
+
+print("Result is :", st)
