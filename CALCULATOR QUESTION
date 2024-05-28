@@ -1,0 +1,12 @@
+def mycalc(x,y):
+    a=x+y
+    b=x-y
+    c=x*y
+
+    return a,b,c
+m = int(input("Enter you a  number :"))
+n=   int(input("enter your b number :"))
+o=   int(input("enter your c number:"))
+print("add is :", m)
+print("sub is :", n)
+print(" mul is :", o)
