@@ -1,0 +1,10 @@
+import time
+import re
+
+
+citr=re.finditer("a+" , " a ab aaac aaaaae ")
+
+for m in citr :
+    time.sleep(.2)
+    print("match:",m.group(), "found @:",m.start())
+
