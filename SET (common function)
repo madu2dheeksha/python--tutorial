@@ -1,0 +1,25 @@
+#set function
+#sum(iterable) -> value
+
+#for list
+lst=[29,31,32,59,64]
+print("lst")
+s = sum(lst)
+print("sum is :", s)
+print("=========================")
+
+#for tuple
+t=( 2,19,20,24,29,31)
+print("tuple is :", t)
+s= sum(t)
+print("sum is :",s)
+print("=============================")
+
+
+#for dict
+stu={24:"anju", 29:"ravy"}
+print("stu :", stu)
+s=sum(stu)
+print("sum is :", s)
+#in dict it takes only keys not the values .
+#and also elements should be in number type only.
