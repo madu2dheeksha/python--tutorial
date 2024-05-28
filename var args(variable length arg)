@@ -1,0 +1,9 @@
+import time
+def mysum(*x):
+    time.sleep(.2)
+    print("Type is :", type(x))
+    print("Data is :", x)
+    print("sum is :" , sum(x))
+
+
+mysum(23,56,79,80)
