@@ -1,0 +1,15 @@
+import time
+import re
+
+data = ("ravy 19-06-05 anju 22-05-05  sunny 23-12-1999 bunny 7-5-13 ")
+
+#a=input("enter first name :")
+#b=input("enter second  name :")
+#c=input("enter third  name :")
+#d=input("enter fourth name :")
+
+citr =  re.finditer("\d{1,2}-\w{1,3}-\d{2,4}",data )
+
+for m in citr:
+    time.sleep(.2)
+    print(m.group())
