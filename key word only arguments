@@ -1,0 +1,8 @@
+#KEYWORD ONLY ARGUMENTS
+
+def myFun(*,name,age):
+    print("name is :", name)
+    print("age is:", age)
+
+myFun(name=" vishnu vardhan" , age=45 )
+#myFun("vahini", 56 ) ->>>> Type error
