@@ -1,0 +1,16 @@
+#POSITION ONLY ARGUMENTS
+
+#if any formal parameters which are declared left sid eof / parameter are called positional only arguments
+#in this case we have to pass the values wrt their position only  not by using their names 
+
+
+
+def myFun(name,age,/):
+    print("name is :", name)
+    print("age is :", age)    
+
+#myFun(name="dheeksha", age=18) ->> error
+#myFun("nishitha", age=29)   ->> error
+myFun("arpitha", 19)  
+#myFun(name="kittu", 18)  ->> error 
+#myFun()   ->> error
