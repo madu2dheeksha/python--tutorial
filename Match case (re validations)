@@ -1,0 +1,11 @@
+# regular expressions
+
+import re
+#p=re.compile("m\w\w")
+#m=p.match("m\w\w"," das mom mad max mrs gun ")
+m=re.match("m\w\w","dom dad mom mad max gun ")
+print("match:", m)
+
+print("match :", m.group())
+print("start :", m.start())
+print("end :", m.end())
