@@ -1,0 +1,16 @@
+# NAMED FUNCTION
+def greet():
+    print("Hello")
+
+print("Type is :", type(greet))
+print("Hcode is :", greet)
+greet()
+
+
+#lambda functions(NAMELESS FUNCTION)
+
+
+x=lambda:print("Hello")
+print("Type is :", type(x))
+print("Hcode is :", x)
+x()
