@@ -1,0 +1,25 @@
+#min common function
+#min(iterable) -> value
+#min(v1,v2,v3,............,vn)
+
+#for list
+lst=[29,31,32,59,64]
+print("lst is :",lst)
+mn = min(lst)
+print("minimum is :", mn)
+print("=========================")
+
+#for tuple
+t=( 2,19,20,24,29,31,32)
+print("tuple is :", t)
+mn= min(t)
+print("min is :",mn)
+print("=============================")
+
+
+#for dict
+stu={24:"anju", 29:"ravy", 100:"nish", 1000:"maggi arp"}
+print("stu :", stu)
+mn =min(stu)
+print("minimum is  is :", mn)
+
