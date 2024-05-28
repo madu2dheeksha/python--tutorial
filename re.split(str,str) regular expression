@@ -1,0 +1,8 @@
+import re
+import time
+data = ("Happy birthday ravy have a nice day")
+lst=re.split(r"\b\w{1}\b", data )
+print(lst)
+for i in lst :
+    time.sleep(.2)
+    print(i)
