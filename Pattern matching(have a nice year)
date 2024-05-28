@@ -1,0 +1,11 @@
+import re
+data = "have a 100000  nice day Dear"
+match=re.search("[d|D]\w{3}$", data)
+#match=re.search("d\w{3}$",data,re.IGNORECASE)
+#match=re.search("d\w{3}$",data,re.I)
+
+
+if match!=None:
+    print("Target ends with given  pattern ")
+else:
+    print("Target not ends with given pattern:") 
