@@ -1,0 +1,24 @@
+#max common function
+#max(iterable) -> value
+#max(v1,v2,v3,............,vn)
+
+#for list
+lst=[29,31,32,59,64]
+print("lst is :",lst)
+mx = max(lst)
+print("max is :", mx)
+print("=========================")
+
+#for tuple
+t=( 2,19,20,24,29,31,32)
+print("tuple is :", t)
+mx= max(t)
+print("max is :",mx)
+print("=============================")
+
+
+#for dict
+stu={24:"anju", 29:"ravy", 100:"nish", 1000:"maggi arp"}
+print("stu :", stu)
+mx =max(stu)
+print("maximum  is :", mx)
