@@ -1,0 +1,8 @@
+#Defualt  parameters
+
+def mysum(x,y=64,z=32):
+    s=x+y+z
+    print("sum is:", s)
+
+mysum(34,56,78)
+# mysum()---> type error
