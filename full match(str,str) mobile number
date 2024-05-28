@@ -1,0 +1,10 @@
+import re
+data = input(" Enter the mobile number :")
+match=re.fullmatch("[6-9][0-9]{9}", data)
+
+if match!=None:
+   
+    print("Valid mobile number :")
+
+else :
+    print("Invalid mobile number" )
