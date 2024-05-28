@@ -1,0 +1,12 @@
+#positional arguments
+#by defualt all formal parameters acts as positional arguments .
+#In this case, both count and order of parameters required to maintain.
+
+
+def myFun(name,age):
+    print("name is :", name)
+    print("age is :", age)
+
+myFun(name="dheeksha", age = 99)
+print("===================")
+print("dheeksha", 99)
